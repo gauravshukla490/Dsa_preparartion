@@ -38,7 +38,7 @@ int getMin(){
         return heap[0];
 }
 
-//heapify down
+//heapify down ->smallest = push up
 void heapifyDown(int i){
     
     int n = heap.size();
