@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int sumBetweenK1K2(vector<int>& arr, int k1, int k2) {
+    int SumBetweenK1K2(vector<int>& arr, int k1, int k2) {
     int n = arr.size();
     if(n==0) return 0;
     
